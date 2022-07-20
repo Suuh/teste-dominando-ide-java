@@ -14,6 +14,6 @@ public class PrimeiroProg {
 }
 
 class Livros{
-	private String nome;
-	private String npag;
+	public String nome;
+	public Integer npag;
 }

@@ -7,8 +7,8 @@ public class Gato {
 	private String cor;
 	private Integer idade;
 
-	public Gato() {
-	}
+	public Gato() {}
+	
 
 	public Gato(String nome, String cor, Integer idade) {
 		this.nome = nome;
@@ -61,10 +61,5 @@ public class Gato {
 	public String toString() {
 		return "Gato [nome=" + nome + ", cor=" + cor + ", idade=" + idade + "]";
 	}
-
-	/*
-	 * public Gato(String nome, String cor, Integer idade) { this.nome= nome;
-	 * this.cor = cor; this.idade = idade; }
-	 */
 
 }
